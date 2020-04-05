@@ -13,6 +13,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #topbar {
@@ -35,4 +36,10 @@ body {
     float: left;
     border-left: 1px grey solid;
     height: 100%;
+}
+#signin-text {
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    /*top: 11px;*/
 }
