@@ -49,8 +49,21 @@ body {
     font-weight: bold;
     position: relative;
     padding: 10px 15px;
-    height: 20px;
-    
-    
-    
+    height: 20px;      
+    }
+#search-box {
+    background-color:#E4E4E4;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    /*-radius: 25px;*/
+    float: left;
+}
+#search-img{
+    height: 18px;
+    background-color:#E4E4E4;
+    margin-top: 10px;
+    border: none;
 }
