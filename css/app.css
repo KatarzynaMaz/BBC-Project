@@ -109,11 +109,34 @@ h1 {
 #menu-bar-2-container {
     background-color:#A91717;
     width: 100%;
-    visibility: visible;
-}
+    position: relative;
+    top: -8px;
+    }
 #menu-bar-2 {
     width: 1000px;
     margin: 0 auto;
     padding: 5px;
     height: 30px;      
+}
+#menu-bar-2 a {
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 0 10px;
+    border-right: 1px #BB1919 solid;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    
+   
+}
+#menu-bar-2 a:hover {
+    text-decoration: underline;
+}
+.no-border {
+    border: none !important;
+}
+#Arrow-down {
+    position: relative;
+    top: 5px;
 }
