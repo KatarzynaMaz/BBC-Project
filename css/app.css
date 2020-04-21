@@ -1,8 +1,8 @@
-html {
+/*html {
     box-sizing: border-box;
     height: 100%;
     background-color: aqua;
-    }
+    }*/
 
 /*,
 *::before,
@@ -164,9 +164,10 @@ h3 a:hover {
     font-size: 14px;
     float: left;
 }
-#topic-link {
+.topic-link {
     text-decoration: none;
     color:#BB1919;
+    font-size: 12px;
 }
 #article-summary a:hover {
     color:rgba(17,103,168,0.3);
@@ -188,3 +189,47 @@ h3 a:hover {
     color: black;
     text-decoration: none;
 }
+
+.watch-listen {
+    margin-left: 10px;
+    width: 300px;
+    float: right;
+}
+h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+.article-side-image {
+    float: left;
+    margin-right: 10px;
+}
+.watch-listen-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.watch-listen-link:hover {
+    color:rgba(17,103,168,0.3);
+}
+.side-article {
+    position: relative;
+    top: -35px;
+    float: right;
+    width: 150px;
+    
+}
+.date {
+    font-size: 12px;
+}
+.no-border {
+    border-left: none;
+    padding: 0;
+    }
+.border-right {
+        border-right: 1px solid #cccccc;
+        padding-right: 10px;
+    }
+    .article-title {
+        font-size: 14px;
+    }
